@@ -1,0 +1,12 @@
+server:
+  port: 8081
+
+ezloc:
+  gateway:
+    rules:
+      users-service :
+        prefixPath: service
+        host: localhost
+        port: 8080
+
+
